@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div id="app">
+        <div class="expense_wrapper">
+            <h1>Expense Tracker</h1>
+            <div class="amounts">
+                <p>Total Expenses</p>
+                <span class="divider"></span>
+                <p id="total">৳<span>0</span></p>
+            </div>
+            <div class="history_wrapper">
+                <h2>History</h2>
+                <div class="histories">
+                    <!-- <p class="no_history">No histories :/</p> -->
+                </div>
+                <div class="add_wrapper">
+                    <form id="form">
+                        <label>Name</label>
+                        <input type="text" id="name">
+                        <label>Amount</label>
+                        <input type="number" id="number">
+                        <input type="submit" value="Add" id="add">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
